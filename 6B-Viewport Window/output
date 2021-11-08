@@ -1,0 +1,11 @@
+Enter Polygon Dimensions
+Enter number of vertices:3
+Enter vertex 1:100 100
+Enter vertex 2:200 200
+Enter vertex 3:100 300
+Enter Viewport details
+Enter min x and max x : 300 700
+Enter min y and max y : 400 900
+Black -> original polygon
+Red -> transformed polygon
+Green -> view port
