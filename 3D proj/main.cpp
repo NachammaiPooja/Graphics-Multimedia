@@ -46,7 +46,7 @@ void initializeDisplay() {
         gluPerspective(120, 1, 0.5, 50);//FoVy = 120, Aspect Ratio = 1
     }
 
-    gluLookAt(0, 0, 1, 0, 0, 0, 0, 1, 0);
+    gluLookAt(0, 0, 1, 0, 0, 0, 0, 1, 0);  //Camera, Center & Up Vector
     glRotatef(x_rotate, 1, 0, 0);         //Keyboard based rotations
     glRotatef(y_rotate, 0, 1, 0);
 
